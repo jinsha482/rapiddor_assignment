@@ -22,7 +22,7 @@ class ProductDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return  Scaffold(backgroundColor: kWhite,
       body: Consumer2<ProductListController,DataLayerController>(builder: (context, productListCtrl,dataCtrl, _) {
        return  Padding(
          padding: const EdgeInsets.symmetric(horizontal: 10),

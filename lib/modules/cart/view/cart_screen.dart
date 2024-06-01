@@ -21,7 +21,7 @@ class _ProductCartScreenState extends State<ProductCartScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(resizeToAvoidBottomInset: false,
+    return Scaffold(resizeToAvoidBottomInset: false,backgroundColor: kWhite,
     appBar: AppBar(title: KStyles().reg20(text: 'Add to Cart'),centerTitle: true,),
       body:SingleChildScrollView(physics: const BouncingScrollPhysics(),
         child: Padding(
